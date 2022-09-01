@@ -20,11 +20,11 @@ body,html {
   font-family: "Courier New", Courier, monospace;
   /* Set the font-size to 25 pixels */
   font-size: 25px;
-  filter: blur(0.5px);
+  /* filter: blur(0.5px);
   -webkit-filter: blur(0.5px);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 0 0;
+  background-position: 0 0; */
   
 }
 
@@ -106,5 +106,11 @@ div.bgimg {
 }
 
 }
-
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+#more {display: none;}
 
